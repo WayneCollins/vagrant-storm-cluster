@@ -1,7 +1,7 @@
 # This puppet file simply installs the required packages for provisioning and gets the base 
 # provisioning from the correct repos. The VM can then provision itself from there. 
 
-$CLONE_URL = "https://qanderson:S34d.B1z@bitbucket.org/qanderson/storm-puppet.git"
+$CLONE_URL = "https://github.com/WayneCollins/vagrant-storm-cluster.git"
 $CHECKOUT_DIR="/tmp/storm-puppet"
 
 
